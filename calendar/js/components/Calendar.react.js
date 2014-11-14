@@ -1,4 +1,4 @@
-function getTodoState() {
+function getState() {
 	return {
 
 	}
@@ -7,7 +7,7 @@ function getTodoState() {
 var Calendar = React.createClass({
 
 	getInitialState: function() {
-		return getTodoState();
+		return getState();
 	},
 
 	render: function() {
@@ -19,7 +19,7 @@ var Calendar = React.createClass({
 	},
 
 	_onChange: function() {
-		this.setState(getTodoState());
+		this.setState(getState());
 	}
 
 });
