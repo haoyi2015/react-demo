@@ -2,6 +2,7 @@
   "name": "calendar",
   "version": "0.0.1",
   "description": "react demo, calendar",
+  "repository": "https://github.com/newcallback/react-demo",
   "main": "js/app.js",
   "dependencies": {
     "flux": "^2.0.0",

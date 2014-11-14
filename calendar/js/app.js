@@ -3,6 +3,6 @@ var React = require('react');
 var Calendar = require('./components/Calendar.react');
 
 React.renderComponent( 
-	< Calendar / > ,
+	<Calendar/> ,
 	document.getElementById('box')
 );
